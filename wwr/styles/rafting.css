@@ -2,7 +2,7 @@
     --primary-color: blue;
     --secondary-color: black;
     --accent-color1: darkgrey;
-    --accent-color2: lightgrey;
+    --accent-color2: #000080;
     --heading-font: Helvetica, sans-serif, "Arial";
     --body-font: "Times New Roman", "Arial", sans-serif;
 }
@@ -85,5 +85,5 @@ h1 {
 h2 {
     text-align: center;
     background-color: var(--primary-color);
-    color: var();
+    color: white;
 }
