@@ -7,6 +7,12 @@
 
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: var(--background-color);
     padding: 10px;
@@ -20,11 +26,12 @@ nav a {
 
 main {
     max-width: 840px;
+    padding: 0 0 0 10px
 }
 
 h1 {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: white;
+    color: var(--background-color);
     padding: 16px;
     text-align: center;
 
@@ -36,6 +43,7 @@ main img {
     border: var(--border-width) var(--border-style) var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -44,12 +52,21 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    /* commenting out the lines below due to duplication from the .box, but want to keep them for learning reference */
+    /* margin: 1rem;
     border: var(--border-width) var(--border-style) var(--border-color) / 0.2;
-    padding: 1rem;
+    padding: 1rem; */
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    color: white;
+    top: 30px;
+    left: 100px
 }
 
 aside img {
@@ -61,4 +78,17 @@ footer {
     margin-top: 15px;
     border-top: var(--border-width) var(--border-style) var(--border-color);
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: var(--border-width) var(--border-style) var(--background-color) / 10%;
+    padding: 1rem;
+    background-color: lightgrey;
+    color: black;
+}
+
+.indent {
+    padding-left: 2rem;
 }
