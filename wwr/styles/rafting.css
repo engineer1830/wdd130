@@ -94,8 +94,10 @@ h1 {
 }
 
 .hero article img {
+    position: relative;
     float: right;
     width: 125px;
+    z-index: 2;
 }
 
 .hero article {
@@ -182,4 +184,12 @@ footer {
 footer p {
     text-align: center;
     flex: 1;
+}
+
+.hero article h2 {
+    position: relative;
+    z-index: 1;
+    color: transparent;
+    background-color: transparent;
+    margin-bottom: -36px;
 }
