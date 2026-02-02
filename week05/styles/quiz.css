@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 500px;
+    margin: 2rem;
+    border: 0 solid #ddd;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    margin: 0.5rem;
+}
+
+input,
+textarea,
+select,
+button {
+    padding: 0.75rem;
+    width: 350px;
+}
+
+label {
+    align-self: start;
+    margin-bottom: 0.25rem;
+    text-align: center;
+}
+
+textarea,
+input,
+select {
+    margin-top: 0.25rem;
+}
+
+input[type="number"] {
+    margin-top: 0.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 1rem;
+}
+
+select {
+    appearance: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    display: inline-block
+}
+
+fieldset {
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    grid-gap: 1rem;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    border: 2px solid rgb(0 0 0 /0.2);
+    border-radius: 0.25rem;
+    background-color: rgb(2 1 1 / 6%);
+    justify-items: left;
+}
+
+code {
+    display: block;
+    margin: 0.5rem auto;
+    background-color: black;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+
+button {
+    width: auto;
+    background-color: navy;
+    color: white;
+    font-size: 1.1rem;
+    justify-self: center;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+}
