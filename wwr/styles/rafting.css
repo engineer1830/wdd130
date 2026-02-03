@@ -1,4 +1,4 @@
-/* 24 Jan 2026 push  */
+/* 2 Feb 2026 push  */
 
 :root {
     --primary-color: blue;
@@ -53,7 +53,6 @@ nav ul {
     list-style: none;
     margin: 10px;
     padding: 10px;
-    /* gap: 2rem; */
 }
 
 nav li {
