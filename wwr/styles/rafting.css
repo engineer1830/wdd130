@@ -25,6 +25,12 @@ header {
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: #f0f8ff;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 840px;
 }
 
 header,
@@ -90,7 +96,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -204,6 +210,38 @@ footer p {
     color: transparent;
     background-color: transparent;
     margin-bottom: -36px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    color: var(--accent-color2);
+}
+
+.brandbar {
+    border: 2px solid var(--accent-color2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.contact-heading {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: var(--accent-color2);
+    background-color: var(--accent-color1);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contacts {
