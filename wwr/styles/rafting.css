@@ -21,10 +21,6 @@ body {
 }
 
 header {
-    border: 2px solid var(--accent-color2);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background-color: #f0f8ff;
     background: none;
     border: none;
     padding: 0;
