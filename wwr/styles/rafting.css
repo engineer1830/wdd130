@@ -439,6 +439,12 @@ button {
     object-fit: contain;
 }
 
+.hero-tagline {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
 .helps {
     margin: 2rem 0;
     text-align: center;
@@ -461,7 +467,7 @@ button {
 .helps figcaption {
     text-align: center;
     margin-top: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .helps-grid {
@@ -510,11 +516,148 @@ button {
 .action {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 400px;
+    min-height: 250px;
     align-items: stretch;
     gap: 2rem;
     margin: 2rem auto;
     padding: 1rem;
     width: 100%;
     max-width: 840px;
+}
+
+.plunge-cta {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.plunge-cta a {
+    display: flex;
+    flex: 1;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.plunge-cta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.plunge-cta .cta-top {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+
+}
+
+.plunge-cta .cta-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.25rem;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 90%;
+}
+
+.action.plunge-layout {
+    grid-template-columns: 1fr 2fr;
+}
+
+table {
+    border-collapse: none;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+}
+
+.trips {
+    position: relative;
+    width: 840px;
+    margin: 0 auto;
+}
+
+.trips span {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.trips-topright {
+    position: absolute;
+    top: 220px;
+    right: 120px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.trips-bottomleft {
+    bottom: 430px;
+    left: 10px;
+}
+
+.trips-center {
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trips img {
+    margin-bottom: 1rem;
+}
+
+.trip-links-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.trip-links-grid figcaption {
+    font-size: 1.25rem;
+    font-weight: 600;
 }
