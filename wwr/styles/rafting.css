@@ -580,7 +580,6 @@ button {
 }
 
 table {
-    border-collapse: none;
     border: 2px solid rgb(140 140 140);
     font-family: sans-serif;
     font-size: 0.9rem;
